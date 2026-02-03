@@ -3,48 +3,48 @@ import React, { useState } from 'react';
 const projects = [
     {
         id: 1,
-        title: 'E-Commerce Platform',
-        description: 'A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.',
+        title: 'Plataforma E-Commerce',
+        description: 'Solución e-commerce completa con integración de pagos, gestión de inventario y analíticas en tiempo real.',
         tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
         category: 'web',
         image: '🛒'
     },
     {
         id: 2,
-        title: 'Social Media Dashboard',
-        description: 'Analytics dashboard for social media management with data visualization and automated reporting.',
+        title: 'Dashboard de Redes Sociales',
+        description: 'Panel de analíticas para gestión de redes sociales con visualización de datos y reportes automatizados.',
         tech: ['React', 'TypeScript', 'Chart.js', 'Express'],
         category: 'web',
         image: '📊'
     },
     {
         id: 3,
-        title: 'Task Management App',
-        description: 'Collaborative task management tool with real-time updates, team collaboration features.',
+        title: 'App de Gestión de Tareas',
+        description: 'Herramienta colaborativa para gestión de tareas con actualizaciones en tiempo real y funciones de equipo.',
         tech: ['React', 'Firebase', 'Material-UI'],
         category: 'app',
         image: '✅'
     },
     {
         id: 4,
-        title: 'Portfolio Website',
-        description: 'Modern portfolio website with smooth animations, dark theme, and responsive design.',
+        title: 'Sitio Web Portfolio',
+        description: 'Portafolio web moderno con animaciones suaves, tema oscuro y diseño completamente responsive.',
         tech: ['React', 'TypeScript', 'CSS3'],
         category: 'design',
         image: '🎨'
     },
     {
         id: 5,
-        title: 'Weather App',
-        description: 'Real-time weather application with location-based forecasts and interactive maps.',
+        title: 'App del Clima',
+        description: 'Aplicación del clima en tiempo real con pronósticos basados en ubicación y mapas interactivos.',
         tech: ['React', 'API Integration', 'Geolocation'],
         category: 'app',
         image: '🌤️'
     },
     {
         id: 6,
-        title: 'Blog Platform',
-        description: 'Content management system with markdown support, SEO optimization, and user authentication.',
+        title: 'Plataforma de Blog',
+        description: 'Sistema de gestión de contenido con soporte markdown, optimización SEO y autenticación de usuarios.',
         tech: ['Next.js', 'MongoDB', 'Auth0'],
         category: 'web',
         image: '📝'
