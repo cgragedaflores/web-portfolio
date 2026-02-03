@@ -50,33 +50,20 @@ const Footer: React.FC = () => {
 
             <footer className="footer">
                 <div className="footer-content">
-                    <div className="footer-top">
-                        <div className="footer-brand">
-                            <h3>👨‍💻 Portfolio</h3>
-                            <p>Building digital experiences that matter</p>
-                        </div>
-                        <div className="footer-social">
-                            <a href="https://github.com/cgragedaflores" target="_blank" rel="noopener noreferrer" className="social-icon">
-                                <i className="fab fa-github"></i>
-                                <span>GitHub</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/carlos-eduardo-grageda-flores-8227b5107/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                                <i className="fab fa-linkedin"></i>
-                                <span>LinkedIn</span>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                                <i className="fab fa-twitter"></i>
-                                <span>Twitter</span>
-                            </a>
-                            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" className="social-icon">
-                                <i className="fab fa-behance"></i>
-                                <span>Behance</span>
-                            </a>
-                        </div>
+                    <div className="footer-brand">
+                        <h3>👨‍💻 Portfolio</h3>
+                        <p>Building digital experiences that matter</p>
                     </div>
-                    <div className="footer-bottom">
-                        <p>&copy; {new Date().getFullYear()} Carlos Eduardo Grageda Flores. Todos los derechos reservados.</p>
-                        <p>Diseñado y Desarrollado con ❤️</p>
+                    <div className="footer-links">
+                        <a href="https://github.com/cgragedaflores" target="_blank" rel="noopener noreferrer" className="footer-link" aria-label="GitHub">
+                            <i className="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/carlos-eduardo-grageda-flores-8227b5107/" target="_blank" rel="noopener noreferrer" className="footer-link" aria-label="LinkedIn">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="footer-link" aria-label="X">
+                            <i className="fab fa-x-twitter"></i>
+                        </a>
                     </div>
                 </div>
             </footer>

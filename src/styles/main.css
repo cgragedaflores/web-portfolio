@@ -834,71 +834,67 @@ section {
 .footer {
     background: var(--bg-darker);
     border-top: 1px solid var(--border-color);
+    padding: 40px 0;
 }
 
 .footer-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 60px 20px 30px;
-}
-
-.footer-top {
+    padding: 0 40px;
     display: flex;
     justify-content: space-between;
-    align-items: start;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid var(--border-color);
+    align-items: center;
 }
 
 .footer-brand h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 8px;
     color: var(--text-primary);
+    font-weight: 700;
 }
 
 .footer-brand p {
     color: var(--text-secondary);
+    font-size: 14px;
+    margin: 0;
 }
 
-.footer-social {
+.footer-links {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
-.social-icon {
-    padding: 12px 24px;
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
+.footer-link {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.social-icon i {
-    font-size: 18px;
-    color: var(--text-secondary);
+    padding: 10px 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
     text-decoration: none;
+    font-size: 14px;
     font-weight: 500;
     transition: var(--transition);
-    box-shadow: var(--shadow-card);
 }
 
-.social-icon:hover {
-    background: var(--accent-gradient);
-    color: white;
+.footer-link i {
+    font-size: 18px;
+    color: var(--accent-primary);
+}
+
+.footer-link:hover {
+    transform: translateY(-2px);
+    background: var(--accent-primary);
     border-color: var(--accent-primary);
-    transform: translateY(-3px);
+    color: white;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
 }
 
-.footer-bottom {
-    text-align: center;
-    color: var(--text-secondary);
-}
-
-.footer-bottom p {
-    margin: 5px 0;
+.footer-link:hover i {
+    color: white;
 }
 
 /* ===== RESPONSIVE ===== */
