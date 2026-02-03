@@ -11,7 +11,11 @@ const About: React.FC = () => {
                     </div>
                     <div className="about-content">
                         <div className="about-image">
-                            <img src={require('../../public/images/profile.png')} alt="Carlos Grageda" />
+                            <img 
+                                src={require('../../public/images/profile.png')} 
+                                alt="Carlos Grageda" 
+                                loading="lazy"
+                            />
                         </div>
                         <div className="about-text">
                             <p>

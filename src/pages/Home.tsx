@@ -28,7 +28,13 @@ const Home: React.FC = () => {
                 <div className="hero-image">
                     <div className="profile-card">
                         <div className="profile-image">
-                            <img src={require('../../public/images/profile.png')} alt="Carlos Grageda" />
+                            <img 
+                                src={require('../../public/images/profile.png')} 
+                                alt="Carlos Grageda" 
+                                loading="lazy"
+                                width="300"
+                                height="400"
+                            />
                         </div>
                         <div className="profile-dots">
                             <span></span>
