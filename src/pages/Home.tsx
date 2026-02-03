@@ -44,7 +44,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="scroll-indicator">
+            <div className="scroll-indicator" onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} style={{ cursor: 'pointer' }}>
                 <span>↓</span>
             </div>
         </section>
